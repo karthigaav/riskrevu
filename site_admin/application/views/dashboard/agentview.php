@@ -609,20 +609,17 @@
                     </div>
                     <div class="box-body">
                         <?php foreach ($clientlist as $client){?>
-
-
-
                         <div class="col-xs-12 col-sm-6">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h3><?php echo $client->name;?> </h3><!-- -->
                                 </div>
                                 <div class="panel-body">
-                                    <dl>
+                                    <dl style="font-size: 1.25em;">
                                         <dt>Email:</dt>
                                         <dd><?php echo $client->email;?></dd>
                                         <dt>Phone Number:</dt>
-                                        <dd><!-- actual Phone number --></dd>
+                                        <dd><?php echo $client->phone;?></dd>
                                         <dt>Address:</dt>
                                         <dd><?php echo $client->address; ?></dd>
                                         <dt>City:</dt>
@@ -630,16 +627,14 @@
                                         <dt>Coverages:</dt>
                                         <dd>
                                             <?php if ($client->home){
-                                                echo "<button class='btn btn-sm btb-success'>Home &nbsp;</button>";
+                                                echo "<button class='btn sm-btn btn-success'>Home &nbsp;</button> &nbsp;";
                                             }
                                             if ($client->auto){
-                                                echo "<button class='btn btn-sm btb-success'>Auto &nbsp;</button>";
+                                                echo "<button class='btn sm-btn btn-success'>Auto &nbsp;</button> &nbsp;";
                                             }
                                             if($client->life){
-                                                echo "<button class='btn btn-sm btb-success'>Life &nbsp;</button>";
+                                                echo "<button class='btn sm-btn btn-success'>Life &nbsp;</button> &nbsp;";
                                             }
-
-
                                             ?>
                                         </dd>
                                     </dl>
