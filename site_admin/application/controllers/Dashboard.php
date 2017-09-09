@@ -13,6 +13,10 @@
         // get data from the database first,
         // pass data to the view
         // load the view
+
+
+
+
         $clientlist = $this->clientform_model->get_all();
 
         $this->data['clientlist'] = $clientlist;
