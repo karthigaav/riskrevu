@@ -149,18 +149,18 @@
                             <span class="label label-warning">10</span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="header">You have 10 notifications</li>
+                            <li class="header">You have 4 notifications</li>
                             <li>
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-users text-aqua"></i> John Smiths policy has expired. 
+                                            <i class="fa fa-warning text-red"></i> John Smiths policy has expired. 
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-warning text-yellow"></i> Susan's policy has expired.
+                                            <i class="fa fa-warning text-red"></i> Susan's policy has expired.
                                         </a>
                                     </li>
                                     <li>
@@ -170,7 +170,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-shopping-cart text-green"></i> Mike's Policy will expire in 20 days
+                                            <i class="fa fa-warning text-yello"></i> Mike's Policy will expire in 20 days
                                         </a>
                                     </li>
                                     <!-- 
