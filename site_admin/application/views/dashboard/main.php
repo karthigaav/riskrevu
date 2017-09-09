@@ -78,10 +78,10 @@
                                                      alt="User Image">
                                             </div>
                                             <h4>
-                                                Support Team
+                                                Message from Client
                                                 <small><i class="fa fa-clock-o"></i> 5 mins</small>
                                             </h4>
-                                            <p>Why not buy a new awesome theme?</p>
+                                            <p>Why not a helpful field?</p>
                                         </a>
                                     </li>
                                     <!-- end message -->
@@ -92,38 +92,13 @@
                                                      alt="User Image">
                                             </div>
                                             <h4>
-                                                AdminLTE Design Team
+                                                Message from individual contributors 
                                                 <small><i class="fa fa-clock-o"></i> 2 hours</small>
                                             </h4>
                                             <p>Why not buy a new awesome theme?</p>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="dist/img/user4-128x128.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                Developers
-                                                <small><i class="fa fa-clock-o"></i> Today</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="dist/img/user3-128x128.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                Sales Department
-                                                <small><i class="fa fa-clock-o"></i> Yesterday</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
+                                    
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
@@ -134,7 +109,7 @@
                                                 Reviewers
                                                 <small><i class="fa fa-clock-o"></i> 2 days</small>
                                             </h4>
-                                            <p>Why not buy a new awesome theme?</p>
+                                            <p>Why not a help information?</p>
                                         </a>
                                     </li>
                                 </ul>
