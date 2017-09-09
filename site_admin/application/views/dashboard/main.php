@@ -155,31 +155,31 @@
                                 <ul class="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                            <i class="fa fa-users text-aqua"></i> John Smiths policy has expired. 
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-warning text-yellow"></i> Very long description here that
-                                            may not fit into the
-                                            page and may cause design problems
+                                            <i class="fa fa-warning text-yellow"></i> Susan's policy has expired.
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-users text-red"></i> 5 new members joined
+                                            <i class="fa fa-users text-red"></i> George Harris has submitted Info.
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                                            <i class="fa fa-shopping-cart text-green"></i> Mike's Policy will expire in 20 days
                                         </a>
                                     </li>
+                                    <!-- 
                                     <li>
                                         <a href="#">
                                             <i class="fa fa-user text-red"></i> You changed your username
                                         </a>
                                     </li>
+                                    -->
                                 </ul>
                             </li>
                             <li class="footer"><a href="#">View all</a></li>
