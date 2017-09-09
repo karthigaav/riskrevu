@@ -595,8 +595,30 @@
                         </ul>
                         <div class="tab-content no-padding">
                             <!-- Morris chart - Sales -->
-                            <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;"></div>
-                            <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
+                            <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300;"></div>
+                            <div class="chart tab-pane" id="sales-chart" style="position: relative;">
+                                <div class = "col-xs-12 col-sm-6 col-md-4">
+                                    <dl>
+                                        <dt>Name:</dt>
+                                        <dd><!-- actual --></dd>
+                                        <dt>Email:</dt>
+                                        <dd><!-- actual email --></dd>
+                                        <dt>Phone Number:</dt>
+                                        <dd><!-- actual Phone number --></dd>
+                                        <dt></dt>
+                                        <dd><a href="">button.<btn class="btn-primary">Details</btn></a></dd>
+                                    </dl>
+              
+              Email:d</dt>></dt>
+              <dd></dd>
+              <dt></dt>
+              <dd></dd>                  </div>
+
+
+
+                            </div>
+
+
                         </div>
                     </div>
                     <!-- /.nav-tabs-custom -->
