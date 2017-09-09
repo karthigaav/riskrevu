@@ -3,9 +3,14 @@
     public function __construct(){
         parent::__construct();
         $this->load->model('clientform_model');
+        $this->load->model('riskrevucustomer_model');
     }
 
     public function index(){
+        $clientlist = $this->riskrevucustomer_model->get_all();
+
+        $this->data['clientlist'] = $clientlist;
+
         $this->load->view('dashboard/main');
     }
 
@@ -14,9 +19,7 @@
         // pass data to the view
         // load the view
 
-        $this->db->select('*');
-        $this->db->sort_by('form_id');
-        $clientlist = $this->clientform_model->get_all();
+        $clientlist = $this->riskrevucustomer_model->get_all();
 
         $this->data['clientlist'] = $clientlist;
 
