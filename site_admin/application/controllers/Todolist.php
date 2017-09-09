@@ -19,7 +19,7 @@ class Todolist extends My_Controller {
         $item = $this->input->post('item');
         
         $insert = array();
-        $insert['desc'] = $item;
+        $insert['todo'] = $item;
         // insert them into the database
         $id = $this->todo_model->insert($insert);
         
