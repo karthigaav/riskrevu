@@ -605,22 +605,29 @@
                 <!-- Left col -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3>Submissions</h3>
+                        <h3 class="text-center">Submissions</h3>
                     </div>
                     <div class="box-body">
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <dl>
-                                <dt>Name:</dt>
-                                <dd><!-- actual --></dd>
-                                <dt>Email:</dt>
-                                <dd><!-- actual email --></dd>
-                                <dt>Phone Number:</dt>
-                                <dd><!-- actual Phone number --></dd>
-                                <dt></dt>
-                                <dd><a href="">
-                                        <button class="btn btn-primary">Details</button>
-                                    </a></dd>
-                            </dl>
+
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3>Customer Name</h3><!-- -->
+                                </div>
+                                <div class="panel-body">
+                                    <dl>
+                                        <dt>Email:</dt>
+                                        <dd><!-- actual email --></dd>
+                                        <dt>Phone Number:</dt>
+                                        <dd><!-- actual Phone number --></dd>
+                                    </dl>
+                                    <p class="text-right">
+                                        <a href="">
+                                            <button class="btn btn-primary">Details</button>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
