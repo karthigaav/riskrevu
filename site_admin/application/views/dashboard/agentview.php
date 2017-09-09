@@ -615,14 +615,33 @@
                         <div class="col-xs-12 col-sm-6">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
-                                    <h3>Customer Name</h3><!-- -->
+                                    <h3><?php echo $client->name;?> </h3><!-- -->
                                 </div>
                                 <div class="panel-body">
                                     <dl>
                                         <dt>Email:</dt>
-                                        <dd><!-- actual email --></dd>
+                                        <dd><?php echo $client->email;?></dd>
                                         <dt>Phone Number:</dt>
                                         <dd><!-- actual Phone number --></dd>
+                                        <dt>Address:</dt>
+                                        <dd><?php echo $client->address; ?></dd>
+                                        <dt>City:</dt>
+                                        <dd><?php echo $client->city;?></dd>
+                                        <dt>Coverages:</dt>
+                                        <dd>
+                                            <?php if ($client->home){
+                                                echo "<button class='btn btn-sm btb-success'>Home &nbsp;</button>";
+                                            }
+                                            if ($client->auto){
+                                                echo "<button class='btn btn-sm btb-success'>Auto &nbsp;</button>";
+                                            }
+                                            if($client->life){
+                                                echo "<button class='btn btn-sm btb-success'>Life &nbsp;</button>";
+                                            }
+
+
+                                            ?>
+                                        </dd>
                                     </dl>
                                     <p class="text-right">
                                         <a href="">
