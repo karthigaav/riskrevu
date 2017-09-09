@@ -14,9 +14,8 @@
         // pass data to the view
         // load the view
 
-
-
-
+        $this->db->select('*');
+        $this->db->sort_by('form_id');
         $clientlist = $this->clientform_model->get_all();
 
         $this->data['clientlist'] = $clientlist;
