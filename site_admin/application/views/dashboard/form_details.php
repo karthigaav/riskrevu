@@ -551,15 +551,301 @@
                         <!--  form details go here  -->
                         
                      <div>
-                        <h2>Valubles</h2>
+                        <h2>Name</h2>
                         <h4>
-                        Do you have any valuables at this property you need special coverage for?(i.e Art, jewelery, etc.,)
+                        What is your name?
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>Mark Zuckerburg</h4>
+                            </li>
+                        </ul>
+                        <h2>Email</h2>
+                        <h4>
+                        Please enter your email?
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>thezuck@facebook.com</h4>
+                            </li>
+                        </ul>
+
+                        <h2>Renovations</h2>
+                        <h4>
+                        Are you planning any major renovations to this home?
                         </h4>
                         <ul>
                             <li>
                                 <h4>Yes</h4>
                             </li>
                         </ul>
+
+                        <h2>Renovation Details</h2>
+                        <h4>
+                        Please tell us more about your renovation plans.
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>Budget - $2000000</h4>
+                            </li>
+                            <li>
+                                <h4>Start Date - 10/2/2017</h4>
+                            </li>
+                            <li>
+                                <h4>Duration of Project - 6 months</h4>
+                            </li>
+                        </ul>
+
+                        <h2>Renovation Description</h2>
+                        <h4>
+                        What is the type of the renovation
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>Enlarge</h4>
+                            </li>
+                        </ul>
+
+                        <h2>Approximate Square Footage</h2>
+                        <h4>
+                        Approximate Square Footage
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5000+ square foot</h4>
+                            </li>
+                        </ul>
+
+                        <h2>Floors</h2>
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                         <h2>Basement Features</h2>
+                         <h4>
+                       What features does your basement have?
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>Crawlspace</h4>
+                            </li>
+                        </ul>
+
+                        <h2>System Updates</h2>
+                        <h4>
+                        Select the systems that you will update.
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>Roof</h4>
+                            </li>
+                        </ul>
+
+                        <h2>
+                        Property Structures
+                        </h2>
+                        <ul>
+                            <li>
+                                <h4>Guest house</h4>
+                            </li>
+                        </ul>
+
+
+                        <h2>
+                        Outbuildings
+                        </h2>
+                        <h4>
+                            Are there any outbuildings on the property that you want flood coverage for? (i.e. pool houses, detached garage, and boat houses.)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>Yes</h4>
+                            </li>
+                        </ul>
+
+                        <h2>
+                        Outbuildings Description
+                        </h2>
+                        <h4>
+                        Please tell us about the outbuildings you want flood coverage for.
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5 car Garage</h4>
+                            </li>
+                        </ul>
+<!-- till  here code is done !-->
+                       <!--  <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul>
+
+                        <h4>
+                        How many floors does this residence have? (Not including a basement/attic)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>5</h4>
+                            </li>
+                        </ul> -->
+
                         </div>
                     </div>
                 </div>
