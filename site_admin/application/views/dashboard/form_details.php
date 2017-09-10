@@ -549,9 +549,20 @@
                         <h3 class="text-center">Entry Details</h3>
                     </div>
                     <div class="box-body">
-
                         <!--  form details go here  -->
-                        
+                        <h2>Valubles</h2>
+                        <h3>
+                        Do you have any valuables at this property you need special coverage for?(i.e Art, jewelery, etc.,)
+                        </h3>
+                        <ul>
+                            <li>
+                                Yes
+                            </li>
+                        </ul>
+
+
+
+
 
 
 
