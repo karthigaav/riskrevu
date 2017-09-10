@@ -559,11 +559,15 @@
 
 
                         <script type="text/javascript">
+<<<<<<< HEAD
                         // write your javascript in here 
                         $(document).ready(function() {
     $("#jsfade").delay(2000).fadeIn(500);
 });
 
+=======
+                        // write your javascript in here
+>>>>>>> 64c71ddb36c065f655049fcbaca07932cb62f795
                         </script>
                     </div>
                 </div>

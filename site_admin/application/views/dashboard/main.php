@@ -581,7 +581,7 @@
                                             </dd>
                                         </dl>
                                         <p class="text-right">
-                                            <a href="">
+                                            <a href="<?php echo site_url('dashboard/details');?>">
                                                 <button class="btn btn-primary">Details</button>
                                             </a>
                                         </p>
