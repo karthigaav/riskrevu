@@ -105,7 +105,7 @@
                                 <ul class="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-warning text-red"></i> John Smiths policy has expired. 
+                                            <i class="fa fa-warning text-red"></i> John Smiths policy has expired.
                                         </a>
                                     </li>
                                     <li>
@@ -123,7 +123,7 @@
                                             <i class="fa fa-warning text-yello"></i> Mike's Policy will expire in 20 days
                                         </a>
                                     </li>
-                                    <!-- 
+                                    <!--
                                     <li>
                                         <a href="#">
                                             <i class="fa fa-user text-red"></i> You changed your username
@@ -547,51 +547,15 @@
                 <!-- Left col -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="text-center">Submissions</h3>
+                        <h3 class="text-center">Details</h3>
                     </div>
                     <div class="box-body">
-                        <?php foreach ($clientlist as $client){?>
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="panel panel-primary">
-                                    <div class="panel-heading">
-                                        <h3><?php echo $client->name;?> </h3><!-- -->
-                                    </div>
-                                    <div class="panel-body">
-                                        <dl style="font-size: 1.25em;">
-                                            <dt>Email:</dt>
-                                            <dd><?php echo $client->email;?></dd>
-                                            <dt>Phone Number:</dt>
-                                            <dd><?php echo $client->phone;?></dd>
-                                            <dt>Address:</dt>
-                                            <dd><?php echo $client->address; ?></dd>
-                                            <dt>City:</dt>
-                                            <dd><?php echo $client->city;?></dd>
-                                            <dt>Coverages:</dt>
-                                            <dd>
-                                                <?php if ($client->home){
-                                                    echo "<button class='btn sm-btn btn-success'>Home &nbsp;</button> &nbsp;";
-                                                }
-                                                if ($client->auto){
-                                                    echo "<button class='btn sm-btn btn-success'>Auto &nbsp;</button> &nbsp;";
-                                                }
-                                                if($client->life){
-                                                    echo "<button class='btn sm-btn btn-success'>Life &nbsp;</button> &nbsp;";
-                                                }
-                                                ?>
-                                            </dd>
-                                        </dl>
-                                        <p class="text-right">
-                                            <a href="">
-                                                <button class="btn btn-primary">Details</button>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        <?php } // end foreach ?>
+                       <!--JavaScript alert goes here -->
 
 
+                        <script type="text/javascript">
+                        // write your javascript in here 
+                        </script>
                     </div>
                 </div>
                 <!-- right col -->
