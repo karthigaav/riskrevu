@@ -46,7 +46,7 @@
     }
 
     public function chat(){
-        $this->load->view('chat');
+        $this->load->view('dashboard/chat');
     } 
 
 }

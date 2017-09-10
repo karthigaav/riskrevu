@@ -51,9 +51,9 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="<?php echo site_url();?>" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>A</b>LT</span>
+
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg"><img src="https://www.riskrevu.com/site_admin/assets/theme/admin/img/logo.png" class="img-responsive" alt="riskrevu logo"></span>
         </a>
@@ -295,7 +295,7 @@
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="active treeview">
-                    <a href="#">
+                    <a href="<?php echo site_url();?>">
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                         <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -543,299 +543,354 @@
             <!-- Main row -->
             <div class="row">
                 <!-- Left col -->
-                <div class="box box-primary">
+                <div class="box box-default">
                     <div class="box-header with-border">
-                        <h3 class="text-center">Entry Details</h3>
+                        <h4 class="text-right">Mark Zuckerburg | thezuck@facebook.com</h4>
                     </div>
                     <div class="box-body">
                         <!--  form details go here  -->
-                        
+                        <div class="row">
+                            <div class="col-xs-12" style="padding-left: 40px;">
+
                      <div>
-                        <h2>Name</h2>
-                        <h4>
-                        What is your name?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Mark Zuckerburg</h4>
-                            </li>
-                        </ul>
-                        <h2>Email</h2>
-                        <h4>
-                        Please enter your email?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>thezuck@facebook.com</h4>
-                            </li>
-                        </ul>
 
-                        <h2>Renovations</h2>
-                        <h4>
-                        Are you planning any major renovations to this home?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Yes</h4>
-                            </li>
-                        </ul>
-
-                        <h2>Renovation Details</h2>
-                        <h4>
-                        Please tell us more about your renovation plans.
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Budget - $2000000</h4>
-                            </li>
-                            <li>
-                                <h4>Start Date - 10/2/2017</h4>
-                            </li>
-                            <li>
-                                <h4>Duration of Project - 6 months</h4>
-                            </li>
-                        </ul>
-
-                        <h2>Renovation Description</h2>
-                        <h4>
-                        What is the type of the renovation
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Enlarge</h4>
-                            </li>
-                        </ul>
-
-                        <h2>Approximate Square Footage</h2>
-                        <h4>
-                        Approximate Square Footage
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5000+ square foot</h4>
-                            </li>
-                        </ul>
-
-                        <h2>Floors</h2>
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                         <h2>Basement Features</h2>
-                         <h4>
-                       What features does your basement have?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Crawlspace</h4>
-                            </li>
-                        </ul>
-
-                        <h2>System Updates</h2>
-                        <h4>
-                        Select the systems that you will update.
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Roof</h4>
-                            </li>
-                        </ul>
-
-                        <h2>
-                        Property Structures
-                        </h2>
-                        <ul>
-                            <li>
-                                <h4>Guest house</h4>
-                            </li>
-                        </ul>
+                         <!--                         <div class="col-md-6">-->
+                         <!--                             <div class="box box-primary">-->
+                         <!--                                 <div class="box-header with-border">-->
+                         <!--                                     <h3>General Info</h3>-->
+                         <!--                                 </div>-->
+                         <!--                                 <div class="box-body">-->
+                         <!---->
+                         <!--                                 </div>-->
+                         <!--                             </div>-->
+                         <!--                         </div>-->
 
 
-                        <h2>
-                        Outbuildings
-                        </h2>
-                        <h4>
-                            Are there any outbuildings on the property that you want flood coverage for? (i.e. pool houses, detached garage, and boat houses.)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Yes</h4>
-                            </li>
-                        </ul>
-
-                        <h2>
-                        Outbuildings Description
-                        </h2>
-                        <h4>
-                        Please tell us about the outbuildings you want flood coverage for.
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5 car Garage</h4>
-                            </li>
-                        </ul>
-<!-- till  here code is done !-->
-                        <h2>
-                        Machinery Location
-                        </h2>
-                        <h4>
-                        Have you change your machinery location?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>No</h4>
-                            </li>
-                        </ul>
-
-                        <h2>
-                            Contents Location
-                        </h2>
-
-                        <h4>
-                        Where is your personal property at this location located?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Other</h4>
-                            </li>
-                        </ul>
-
-                        <h2>
-                            Flood Vents
-                        </h2>
-
-                        <h4>
-                        Does this home have flood vents?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>No</h4>
-                            </li>
-                        </ul>
 
 
-                        <h2>
-                            Flood Insurance Policy
-                        </h2>
-
-                        <h4>
-                        Do you have a flood insurance policy in place today?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>No</h4>
-                            </li>
-                        </ul>
 
 
-                        <h2>
-                            Claims
-                        </h2>
-                        <h4>
-                       Have you been paid over $5,000 on any flood claims in the last 10 years?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>No</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
 
 
-                        <h2>
-                            Claims Description
-                        </h2>
-                        <h4>
-                        Please tell us about the claim(s), including amount paid by your insurer and a brief description of what happened.
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>I made a claim this year when a tree branch felll on my car and cause some damage and $3k is covered by my insurer.</h4>
-                            </li>
-                        </ul>
+                              <div class="col-md-6">
+                                  <div class="box box-primary">
+                                      <div class="box-header with-border">
+                                          <h3>Property Info</h3>
+                                      </div>
+                                      <div class="box-body">
+                                          <h2>Approximate Square Footage</h2>
+                                          <h4>
+                                              Approximate Square Footage
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>5000+ square foot</h4>
+                                              </li>
+                                          </ul>
 
-                        <h2>
-                            Policy Cancellation
-                        </h2>
+                                          <h2>Floors</h2>
+                                          <h4>
+                                              How many floors does this residence have? (Not including a basement/attic)
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>5</h4>
+                                              </li>
+                                          </ul>
 
-                        <h4>
-                        Is your policy being cancelled or non-renewed?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>No</h4>
-                            </li>
-                        </ul>
+                                          <h2>Basement Features</h2>
+                                          <h4>
+                                              What features does your basement have?
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>Crawlspace</h4>
+                                              </li>
+                                          </ul>
 
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
+                                          <h2>System Updates</h2>
+                                          <h4>
+                                              Select the systems that you will update.
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>Roof</h4>
+                                              </li>
+                                          </ul>
 
-                        <h2>
-                            Elevation Certificate
-                        </h2>
-                        <h4>
-                        Do you have an elevation certificate for this property?
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>Yes</h4>
-                            </li>
-                        </ul>
-
-
-                        <h2>
-                            Valuables
-                        </h2>
-
-                        <h4>
-                        Do you have any valuables at this property you need special coverage for? (i.e. Art, jewelry, etc...)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>No</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
+                                          <h2>
+                                              Property Structures
+                                          </h2>
+                                          <ul>
+                                              <li>
+                                                  <h4>Guest house</h4>
+                                              </li>
+                                          </ul>
 
 
-                        <h2>
-                            Authorization
-                        </h2>
-                        <h4>
-                        Credit score information may be used to obtain accurate rates from insurance vendors. Check the box below to authorize us to obtain this information on your behalf.
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>I agree</h4>
-                            </li>
-                        </ul>
+                                          <h2>
+                                              Outbuildings
+                                          </h2>
+                                          <h4>
+                                              Are there any outbuildings on the property that you want flood coverage for? (i.e. pool houses, detached garage, and boat houses.)
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>Yes</h4>
+                                              </li>
+                                          </ul>
+
+                                          <h2>
+                                              Outbuildings Description
+                                          </h2>
+                                          <h4>
+                                              Please tell us about the outbuildings you want flood coverage for.
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>5 car Garage</h4>
+                                              </li>
+                                          </ul>
+                                          <!-- till  here code is done !-->
+                                          <h2>
+                                              Machinery Location
+                                          </h2>
+                                          <h4>
+                                              Have you change your machinery location?
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>No</h4>
+                                              </li>
+                                          </ul>
+
+                                          <h2>
+                                              Contents Location
+                                          </h2>
+
+                                          <h4>
+                                              Where is your personal property at this location located?
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>Other</h4>
+                                              </li>
+                                          </ul>
+
+                                          <h4>
+                                              How many floors does this residence have? (Not including a basement/attic)
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>5</h4>
+                                              </li>
+                                          </ul>
+
+
+
+                                          <h2>
+                                              Flood Vents
+                                          </h2>
+
+                                          <h4>
+                                              Does this home have flood vents?
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>No</h4>
+                                              </li>
+                                          </ul>
+                                          <h2>
+                                              Elevation Certificate
+                                          </h2>
+                                          <h4>
+                                              Do you have an elevation certificate for this property?
+                                          </h4>
+                                          <ul>
+                                              <li>
+                                                  <h4>Yes</h4>
+                                              </li>
+                                          </ul>
+
+                                      </div>
+                                  </div>
+                              </div>
+
+
+
+                         <div class="col-md-6">
+                             <div class="box box-info" style="min-height: 340px;">
+                                 <div class="box-header with-border">
+                                     <h3>Renovation Info</h3>
+                                 </div>
+                                 <div class="box-body">
+                                     <h2>Renovations</h2>
+                                     <h4>
+                                         Are you planning any major renovations to this home?
+                                     </h4>
+                                     <ul>
+                                         <li>
+                                             <h4>Yes</h4>
+                                         </li>
+                                     </ul>
+
+                                     <h2>Renovation Details</h2>
+                                     <h4>
+                                         Please tell us more about your renovation plans.
+                                     </h4>
+                                     <ul>
+                                         <li>
+                                             <h4>Budget - $2000000</h4>
+                                         </li>
+                                         <li>
+                                             <h4>Start Date - 10/2/2017</h4>
+                                         </li>
+                                         <li>
+                                             <h4>Duration of Project - 6 months</h4>
+                                         </li>
+                                     </ul>
+
+                                     <h2>Renovation Description</h2>
+                                     <h4>
+                                         What is the type of the renovation
+                                     </h4>
+                                     <ul>
+                                         <li>
+                                             <h4>Enlarge</h4>
+                                         </li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+
+
+
+
+                          <div class="col-md-6">
+                              <div class="box box-warning">
+                                  <div class="box-header with-border">
+                                      <h3>Flood policy</h3>
+                                  </div>
+                                  <div class="box-body">
+                                      <h2>
+                                          Flood Insurance Policy
+                                      </h2>
+
+                                      <h4>
+                                          Do you have a flood insurance policy in place today?
+                                      </h4>
+                                      <ul>
+                                          <li>
+                                              <h4>No</h4>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="box box-success">
+                                  <div class="box-header with-border">
+                                      <h3>Valuables Info</h3>
+                                  </div>
+                                  <div class="box-body">
+                                      <h2>
+                                          Valuables
+                                      </h2>
+
+                                      <h4>
+                                          Do you have any valuables at this property you need special coverage for? (i.e. Art, jewelry, etc...)
+                                      </h4>
+                                      <ul>
+                                          <li>
+                                              <h4>No</h4>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                              <div class="box box-primary">
+                                  <div class="box-header with-border">
+                                      <h3>Recent Claims</h3>
+                                  </div>
+                                  <div class="box-body">
+                                      <h2>
+                                          Claims Description
+                                      </h2>
+                                      <h4>
+                                          Please tell us about the claim(s), including amount paid by your insurer and a brief description of what happened.
+                                      </h4>
+                                      <ul>
+                                          <li>
+                                              <h4>I made a claim this year when a tree branch felll on my car and cause some damage and $3k is covered by my insurer.</h4>
+                                          </li>
+                                      </ul>
+
+                                      <h2>
+                                          Claims
+                                      </h2>
+                                      <h4>
+                                          Have you been paid over $5,000 on any flood claims in the last 10 years?
+                                      </h4>
+                                      <ul>
+                                          <li>
+                                              <h4>No</h4>
+                                          </li>
+                                      </ul>
+                                      <br/><br/>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                              <div class="box box-danger">
+                                  <div class="box-header with-border">
+                                      <h3>Policy Information</h3>
+                                  </div>
+                                  <div class="box-body">
+                                      <h2>
+                                          Policy Cancellation
+                                      </h2>
+
+                                      <h4>
+                                          Is your policy being cancelled or non-renewed?
+                                      </h4>
+                                      <ul>
+                                          <li>
+                                              <h4>No</h4>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                          <div class="col-md-6">
+                              <div class="box box-success">
+                                  <div class="box-header with-border">
+                                      <h3>Terms and Conditions</h3>
+                                  </div>
+                                  <div class="box-body">
+                                      <h2>
+                                          Authorization
+                                      </h2>
+                                      <h4>
+                                          Credit score information may be used to obtain accurate rates from insurance vendors. Check the box below to authorize us to obtain this information on your behalf.
+                                      </h4>
+                                      <ul>
+                                          <li>
+                                              <h4>I agree</h4>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+
+
+
+
+
                         </div>
                     </div>
                 </div>
