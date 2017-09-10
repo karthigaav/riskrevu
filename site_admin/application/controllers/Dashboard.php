@@ -45,4 +45,8 @@
         $this->load->view('dashboard/form_details');
     }
 
+    public function chat(){
+        $this->load->view('chat');
+    } 
+
 }
