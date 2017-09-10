@@ -73,10 +73,6 @@
                                 <ul class="menu">
                                     <li><!-- start message -->
                                         <a href="#">
-                                            <div class="pull-left">
-                                                <img src="dist/img/user2-160x160.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
                                             <h4>
                                                 Message from Client
                                                 <small><i class="fa fa-clock-o"></i> 5 mins</small>
@@ -300,15 +296,11 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                     </a>
-                    <ul class="treeview-menu">
-                        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                        <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                    </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-files-o"></i>
-                        <span>Layout Options</span>
+                        <span>Reports</span>
                         <span class="pull-right-container">
               <span class="label label-primary pull-right">4</span>
             </span>
@@ -332,7 +324,7 @@
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
-                        <span>Charts</span>
+                        <span>Metrics</span>
                         <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
