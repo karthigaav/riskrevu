@@ -41,4 +41,8 @@
         $this->load->view('dashboard/details', $this->data);
     }
 
+    public function form_details(){
+        $this->load->view('dashboard/form_details');
+    }
+
 }

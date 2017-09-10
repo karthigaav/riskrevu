@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Risk Revu | Dashboard</title>
+    <title>AdminLTE 2 | Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -53,7 +53,7 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-<!--            <span class="logo-mini"><b>A</b>LT</span>-->
+            <span class="logo-mini"><b>A</b>LT</span>
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg"><img src="https://www.riskrevu.com/site_admin/assets/theme/admin/img/logo.png" class="img-responsive" alt="riskrevu logo"></span>
         </a>
@@ -104,22 +104,22 @@
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-warning text-red"></i> John Smiths policy has expired.
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-warning text-red"></i> Susan's policy has expired.
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-users text-red"></i> George Harris has submitted Info.
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-warning text-yello"></i> Mike's Policy will expire in 20 days
                                         </a>
                                     </li>
@@ -546,79 +546,16 @@
                 <!-- Left col -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="text-center">Details</h3>
+                        <h3 class="text-center">Entry Details</h3>
                     </div>
                     <div class="box-body">
-                       <!--JavaScript alert goes here -->
 
-                       <div class="alert alert-success alert-dismissible" role="alert" style="display: none;" id="jsfade">
-  <button type="button" class="close" aria-label="Close" id="hide-alert"><span aria-hidden="true">&times;</span></button>
-  <h3>                     <strong>Success!</strong> Your reminder message has been sent!</h3>
-
-</div>
+                        <!--  form details go here  -->
+                        
 
 
-                        <div class="col-xs-12 col-sm-4">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3>John Smith </h3><!-- -->
-                                </div>
-                                <div class="panel-body">
-                                    <dl style="font-size: 1.25em;">
-                                        <dt>Email:</dt>
-                                        <dd>johnsmith@superrichguy.com</dd>
-                                        <dt>Phone Number:</dt>
-                                        <dd>555-555-1234</dd>
-                                        <dt>Address:</dt>
-                                        <dd>20 Church St.</dd>
-                                        <dt>City:</dt>
-                                        <dd>Hartford, CT</dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-xs-12 col-sm-8">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3>Policy Information</h3><!-- -->
-                                </div>
-                                <div class="panel-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <td>Policy Type</td>
-                                                <td>Policy # </td>
-                                                <td>Expiration</td>
-                                                <td >&nbsp;</td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Home</td>
-                                            <td>45623489782</td>
-                                            <td>10/15/17</td>
-                                            <td  class="text-right">
-                                                <button class="btn btn-success email">Send Renewal Notice</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Auto</td>
-                                            <td>234098723423</td>
-                                            <td>12/15/17</td>
-                                            <td  class="text-right">
-                                                <button class="btn btn-success email">Send Renewal Notice</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Life</td>
-                                            <td>234098348948</td>
-                                            <td>6/13/2020</td>
-                                            <td  class="text-right">
-                                                <button class="btn btn-success email">Send Renewal Notice</button></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                        </div>
+
 
 
                     </div>
@@ -872,30 +809,5 @@
 <script src="<?php echo site_url('assets/theme/admin/dist/js/pages/dashboard.js'); ?>"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo site_url('assets/theme/admin/dist/js/demo.js'); ?>"></script>
-
-
-<script type="text/javascript">
-
-    // write your javascript in here
-
-
-
-    $('.email').click(function(){
-        setTimeout(function(){
-            $('#jsfade').show('fade')
-        }, 300);
-    });
-
-    $('#hide-alert').click(function(){
-        $('#jsfade').hide('fade');
-    });
-
-
-
-</script>
-
-
-
-
 </body>
 </html>

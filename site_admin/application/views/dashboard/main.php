@@ -104,22 +104,22 @@
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-warning text-red"></i> John Smiths policy has expired. 
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-warning text-red"></i> Susan's policy has expired.
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-users text-red"></i> George Harris has submitted Info.
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <i class="fa fa-warning text-yello"></i> Mike's Policy will expire in 20 days
                                         </a>
                                     </li>
@@ -484,7 +484,7 @@
                     <!-- small box -->
                     <div class="small-box bg-aqua">
                         <div class="inner">
-                            <h3>150</h3>
+                            <h3>1,500</h3>
 
                             <p>New Submissions</p>
                         </div>
@@ -499,7 +499,7 @@
                     <!-- small box -->
                     <div class="small-box bg-green">
                         <div class="inner">
-                            <h3>53<sup style="font-size: 20px">%</sup></h3>
+                            <h3>97<sup style="font-size: 20px">%</sup></h3>
 
                             <p>Renewal Rate</p>
                         </div>
@@ -514,7 +514,7 @@
                     <!-- small box -->
                     <div class="small-box bg-yellow">
                         <div class="inner">
-                            <h3>44</h3>
+                            <h3>450</h3>
 
                             <p>User Registrations</p>
                         </div>
@@ -529,8 +529,7 @@
                     <!-- small box -->
                     <div class="small-box bg-red">
                         <div class="inner">
-                            <h3>65</h3>
-
+                            <h3>3,100</h3>
                             <p>Unique Visitors</p>
                         </div>
                         <div class="icon">
