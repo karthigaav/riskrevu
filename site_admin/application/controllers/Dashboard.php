@@ -26,7 +26,7 @@
         foreach($clientlist as $client){
             $person = array();
 
-            $this->clientform_model->where('form_id', );
+            $this->clientform_model->where('form_id', $client);
 
             print_r($client); echo '<br/>';
         }
