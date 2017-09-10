@@ -553,22 +553,77 @@
                        <!--JavaScript alert goes here -->
 
                        <div class="alert alert-success alert-dismissible" role="alert" style="display: none;" id="jsfade">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <strong>Attention!</strong> You have a new form submission.
+  <button type="button" class="close" aria-label="Close" id="hide-alert"><span aria-hidden="true">&times;</span></button>
+  <h3>                     <strong>Success!</strong> Your reminder message has been sent!</h3>
+
 </div>
 
 
-                        <script type="text/javascript">
-<<<<<<< HEAD
-                        // write your javascript in here 
-                        $(document).ready(function() {
-    $("#jsfade").delay(2000).fadeIn(500);
-});
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3>John Smith </h3><!-- -->
+                                </div>
+                                <div class="panel-body">
+                                    <dl style="font-size: 1.25em;">
+                                        <dt>Email:</dt>
+                                        <dd>johnsmith@superrichguy.com</dd>
+                                        <dt>Phone Number:</dt>
+                                        <dd>555-555-1234</dd>
+                                        <dt>Address:</dt>
+                                        <dd>20 Church St.</dd>
+                                        <dt>City:</dt>
+                                        <dd>Hartford, CT</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
 
-=======
-                        // write your javascript in here
->>>>>>> 64c71ddb36c065f655049fcbaca07932cb62f795
-                        </script>
+                        <div class="col-xs-12 col-sm-8">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3>Policy Information</h3><!-- -->
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <td>Policy Type</td>
+                                                <td>Policy # </td>
+                                                <td>Expiration</td>
+                                                <td >&nbsp;</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Home</td>
+                                            <td>45623489782</td>
+                                            <td>10/15/17</td>
+                                            <td  class="text-right">
+                                                <button class="btn btn-success email">Send Renewal Notice</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Auto</td>
+                                            <td>234098723423</td>
+                                            <td>12/15/17</td>
+                                            <td  class="text-right">
+                                                <button class="btn btn-success email">Send Renewal Notice</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Life</td>
+                                            <td>234098348948</td>
+                                            <td>6/13/2020</td>
+                                            <td  class="text-right">
+                                                <button class="btn btn-success email">Send Renewal Notice</button></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
                 <!-- right col -->
@@ -820,5 +875,30 @@
 <script src="<?php echo site_url('assets/theme/admin/dist/js/pages/dashboard.js'); ?>"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo site_url('assets/theme/admin/dist/js/demo.js'); ?>"></script>
+
+
+<script type="text/javascript">
+
+    // write your javascript in here
+
+
+
+    $('.email').click(function(){
+        setTimeout(function(){
+            $('#jsfade').show('fade')
+        }, 300);
+    });
+
+    $('#hide-alert').click(function(){
+        $('#jsfade').hide('fade');
+    });
+
+
+
+</script>
+
+
+
+
 </body>
 </html>
