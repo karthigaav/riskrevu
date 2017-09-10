@@ -680,104 +680,68 @@
                             </li>
                         </ul>
 <!-- till  here code is done !-->
-                       <!--  <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        <h2>
+                        Machinery Location
+                        </h2>
+                        <h4>
+                        Have you change your machinery location?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
+                                <h4>No</h4>
                             </li>
                         </ul>
 
+                        <h2>
+                            Contents Location
+                        </h2>
+
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        Where is your personal property at this location located?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
+                                <h4>Other</h4>
                             </li>
                         </ul>
 
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
+                        <h2>
+                            Flood Vents
+                        </h2>
 
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        Does this home have flood vents?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
+                                <h4>No</h4>
                             </li>
                         </ul>
 
 
+                        <h2>
+                            Flood Insurance Policy
+                        </h2>
+
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        Do you have a flood insurance policy in place today?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
+                                <h4>No</h4>
                             </li>
                         </ul>
 
 
+                        <h2>
+                            Claims
+                        </h2>
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                       Have you been paid over $5,000 on any flood claims in the last 10 years?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
+                                <h4>No</h4>
                             </li>
                         </ul>
 
@@ -791,31 +755,28 @@
                         </ul>
 
 
+                        <h2>
+                            Claims Description
+                        </h2>
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        Please tell us about the claim(s), including amount paid by your insurer and a brief description of what happened.
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
+                                <h4>I made a claim this year when a tree branch felll on my car and cause some damage and $3k is covered by my insurer.</h4>
                             </li>
                         </ul>
 
+                        <h2>
+                            Policy Cancellation
+                        </h2>
 
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        Is your policy being cancelled or non-renewed?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
-                            </li>
-                        </ul>
-
-                        <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
-                        </h4>
-                        <ul>
-                            <li>
-                                <h4>5</h4>
+                                <h4>No</h4>
                             </li>
                         </ul>
 
@@ -828,12 +789,29 @@
                             </li>
                         </ul>
 
+                        <h2>
+                            Elevation Certificate
+                        </h2>
                         <h4>
-                        How many floors does this residence have? (Not including a basement/attic)
+                        Do you have an elevation certificate for this property?
                         </h4>
                         <ul>
                             <li>
-                                <h4>5</h4>
+                                <h4>Yes</h4>
+                            </li>
+                        </ul>
+
+
+                        <h2>
+                            Valuables
+                        </h2>
+
+                        <h4>
+                        Do you have any valuables at this property you need special coverage for? (i.e. Art, jewelry, etc...)
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>No</h4>
                             </li>
                         </ul>
 
@@ -844,8 +822,20 @@
                             <li>
                                 <h4>5</h4>
                             </li>
-                        </ul> -->
+                        </ul>
 
+
+                        <h2>
+                            Authorization
+                        </h2>
+                        <h4>
+                        Credit score information may be used to obtain accurate rates from insurance vendors. Check the box below to authorize us to obtain this information on your behalf.
+                        </h4>
+                        <ul>
+                            <li>
+                                <h4>I agree</h4>
+                            </li>
+                        </ul>
                         </div>
                     </div>
                 </div>
