@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Dashboard</title>
+    <title>Risk Revu  | Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -83,7 +83,6 @@
                                                 Message from Client
                                                 <small><i class="fa fa-clock-o"></i> 5 mins</small>
                                             </h4>
-                                            <p>Why not a helpful field?</p>
                                         </a>
                                     </li>
                                     <!-- end message -->
@@ -550,6 +549,8 @@
                     </div>
                     <div class="box-body">
                         <!--  form details go here  -->
+                        
+                     <div>
                         <h2>Valubles</h2>
                         <h3>
                         Do you have any valuables at this property you need special coverage for?(i.e Art, jewelery, etc.,)
@@ -559,16 +560,7 @@
                                 Yes
                             </li>
                         </ul>
-
-
-
-
-
-
-
-
-
-
+                        </div>
                     </div>
                 </div>
                 <!-- right col -->

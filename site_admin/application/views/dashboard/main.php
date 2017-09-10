@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Dashboard</title>
+    <title>Risk Revu | Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -51,11 +51,16 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="<?php echo site_url();?>" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>A</b>LT</span>
+<!--            <span class="logo-mini"><b>A</b>LT</span>-->
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><img src="https://www.riskrevu.com/site_admin/assets/theme/admin/img/logo.png" class="img-responsive" alt="riskrevu logo"></span>
+
+            <span class="logo-lg">
+
+                    <img src="https://www.riskrevu.com/site_admin/assets/theme/admin/img/logo.png" class="img-responsive" alt="riskrevu logo">
+
+            </span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -78,18 +83,19 @@
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
                                     <li><!-- start message -->
-                                        <a href="#">
+                                        <a href="<?php echo site_url('dashboard/details');?>">
                                             <h4>
                                                 Message from Client
                                                 <small><i class="fa fa-clock-o"></i> 5 mins</small>
                                             </h4>
-                                            <p>Why not a helpful field?</p>
                                         </a>
                                     </li>
                                     <!-- end message -->
                                 </ul>
                             </li>
-                            <li class="footer"><a href="#">See All Messages</a></li>
+                            <li class="footer">
+                                <a href="<?php echo site_url('dashboard/details');?>">
+                                    See All Messages</a></li>
                         </ul>
                     </li>
                     <!-- Notifications: style can be found in dropdown.less -->
@@ -296,7 +302,7 @@
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="active treeview">
-                    <a href="#">
+                    <a href="<?php echo site_url();?>">
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                         <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -581,7 +587,7 @@
                                         </dl>
                                         <p class="text-right">
                                             <a href="<?php echo site_url('dashboard/details');?>">
-                                                <button class="btn btn-primary">Details</button>
+                                                <button class="btn btn-primary">Customer Details</button>
                                             </a>
                                         </p>
                                     </div>
