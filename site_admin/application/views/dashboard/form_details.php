@@ -552,12 +552,12 @@
                         
                      <div>
                         <h2>Valubles</h2>
-                        <h3>
+                        <h4>
                         Do you have any valuables at this property you need special coverage for?(i.e Art, jewelery, etc.,)
-                        </h3>
+                        </h4>
                         <ul>
                             <li>
-                                Yes
+                                <h4>Yes</h4>
                             </li>
                         </ul>
                         </div>
