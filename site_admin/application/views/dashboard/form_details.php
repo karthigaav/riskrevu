@@ -83,7 +83,6 @@
                                                 Message from Client
                                                 <small><i class="fa fa-clock-o"></i> 5 mins</small>
                                             </h4>
-                                            <p>Why not a helpful field?</p>
                                         </a>
                                     </li>
                                     <!-- end message -->
