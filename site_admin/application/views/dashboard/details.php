@@ -552,9 +552,18 @@
                     <div class="box-body">
                        <!--JavaScript alert goes here -->
 
+                       <div class="alert alert-success alert-dismissible" role="alert" style="display: none;" id="jsfade">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Attention!</strong> You have a new form submission.
+</div>
+
 
                         <script type="text/javascript">
                         // write your javascript in here 
+                        $(document).ready(function() {
+    $("#jsfade").delay(2000).fadeIn(500);
+});
+
                         </script>
                     </div>
                 </div>
