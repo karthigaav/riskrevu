@@ -19,7 +19,23 @@
         // pass data to the view
         // load the view
 
-        $clientlist = $this->riskrevucustomer_model->get_all();
+//        $clientlist = $this->riskrevucustomer_model->get_all();
+
+
+        $clientlist = $this->clientform_model->group_by('form_id')->get_all();
+        foreach($clientlist as $client){
+            $person = array();
+
+            $this->clientform_model->where('form_id', );
+
+            print_r($client); echo '<br/>';
+        }
+
+die();
+
+
+
+
 
         $this->data['clientlist'] = $clientlist;
 

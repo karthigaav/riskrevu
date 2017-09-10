@@ -6,7 +6,7 @@
     public function __construct()
     {
         parent::__construct();
-        $this->return_as = "object";
+        $this->return_as = "array";
     }
 
 }
