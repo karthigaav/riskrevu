@@ -586,6 +586,9 @@
                                             </dd>
                                         </dl>
                                         <p class="text-right">
+                                            <a href="<?php echo site_url('dashboard/form_details');?>">
+                                                <button class="btn btn-primary">Entry Details </button>
+                                            </a>
                                             <a href="<?php echo site_url('dashboard/details');?>">
                                                 <button class="btn btn-primary">Customer Details</button>
                                             </a>

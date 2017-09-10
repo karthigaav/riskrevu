@@ -104,7 +104,7 @@
                                 <ul class="menu">
                                     <li>
                                         <a href="<?php echo site_url('dashboard/details');?>">
-                                            <i class="fa fa-warning text-red"></i> John Smiths policy has expired.
+                                            <i class="fa fa-warning text-red"></i> Mark Zuckerburg's policy has expired.
                                         </a>
                                     </li>
                                     <li>

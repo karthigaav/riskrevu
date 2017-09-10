@@ -104,7 +104,7 @@
                                 <ul class="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-warning text-red"></i> John Smiths policy has expired.
+                                            <i class="fa fa-warning text-red"></i> Mark Zuckerburg's policy has expired.
                                         </a>
                                     </li>
                                     <li>
@@ -295,7 +295,7 @@
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="active treeview">
-                    <a href="#">
+                    <a href="<?php echo site_url(); ?>">
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                         <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -557,15 +557,15 @@
 </div>
 
 
-                        <div class="col-xs-12 col-sm-4">
+                        <div class="col-xs-12 col-sm-4" style="font-size: 1.25em; min-height: 440px;">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
-                                    <h3>John Smith </h3><!-- -->
+                                    <h3>Mark Zuckerburg </h3><!-- -->
                                 </div>
                                 <div class="panel-body">
-                                    <dl style="font-size: 1.25em;">
+                                    <dl>
                                         <dt>Email:</dt>
-                                        <dd>johnsmith@superrichguy.com</dd>
+                                        <dd>thezuck@facebook.com</dd>
                                         <dt>Phone Number:</dt>
                                         <dd>555-555-1234</dd>
                                         <dt>Address:</dt>
@@ -577,7 +577,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-8">
+                        <div class="col-xs-12 col-sm-8" style="font-size: 1.25em; min-height: 440px;">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h3>Policy Information</h3><!-- -->
