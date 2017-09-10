@@ -11,7 +11,7 @@
 
         $this->data['clientlist'] = $clientlist;
 
-        $this->load->view('dashboard/main');
+        $this->load->view('dashboard/main', $this->data);
     }
 
     public function agent_view(){
@@ -33,8 +33,12 @@
         // load a view / or return values, load a view
     }
 
-    public function client_details(){
+    public function details(){
+        $clientlist = $this->riskrevucustomer_model->get_all();
 
+        $this->data['clientlist'] = $clientlist;
+
+        $this->load->view('dashboard/details', $this->data);
     }
 
 }
