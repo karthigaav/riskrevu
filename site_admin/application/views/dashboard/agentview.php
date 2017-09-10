@@ -155,7 +155,7 @@
                                 <ul class="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-users text-aqua"></i> John Smiths policy has expired.
+                                            <i class="fa fa-users text-aqua"></i> Mark Zuckerburgs Smiths policy has expired.
                                         </a>
                                     </li>
                                     <li>
