@@ -605,7 +605,7 @@
                 <!-- Left col -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="text-center">Submissions</h3>
+                        <h3 class="text-center">Recent Submissions</h3>
                     </div>
                     <div class="box-body">
                         <?php foreach ($clientlist as $client){?>
